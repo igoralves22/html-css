@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'London';
+            src: url('fonts/OldLondon.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }
+            @font-face {
+                font-family: 'fantasia';
+                src: url('fonts/Game Bubble.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+
+            }
+            /*
+            Tipos de format()
+            -opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype-aat (Apple Advanced Typography)
+            -svg
+            */
+        body {
+            font-family: Arial, Helvetica, sans-serif,
+        }
+
+        h1 {
+            font-family: 'London', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+        h2 {
+            font-family: 'fantasia', Times, serif;
+            font-size: 2em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus earum doloribus, sed quis temporibus molestiae possimus non voluptate rerum quam quo aliquam eius. Dolorum sequi ullam ducimus earum non!</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa natus eaque voluptatibus perferendis quas? Harum nesciunt, dolorum quo numquam cupiditate quasi eius quisquam quae dolorem mollitia eveniet blanditiis quidem inventore!</p>
+</body>
+</html>
